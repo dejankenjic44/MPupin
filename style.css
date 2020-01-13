@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Times New Roman', Times, serif;
+	
+}
+
+main {
+	width: 100%;
+	margin: 0 auto;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url(nebo.jpg);
+	background-size: cover;
+}
+
+header {
+	height: 20%;
+	width: 20%;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	list-style: none;
+	align-items: center;
+	height: 100%;
+	text-align: center;
+	line-height: 40px;
+	width: 100%;
+}
+
+a {
+	color: whitesmoke;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+aside {
+	width: 90%;
+	height: 60%;
+}
+
+aside>header {
+	width: 100%;
+	text-align: center;
+	align-items: center;
+}
+
+aside>header>h1 {
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.article {
+	display: flex;
+	justify-content: space-between;
+	height: 79%;
+}
+
+.text {
+	width: 70%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	line-height: 22px;
+}
+
+.text>p {
+	margin-bottom: 15px;
+}
+
+.scroll {
+	overflow: scroll;
+}
+
+.wrapper {
+	height: 100%;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.test {
+	width: 90%;
+	height: 100%;
+}
+
+.table {
+	border: 1px solid rgb(100, 16, 235);
+}
+
+#heading {
+	padding: 10px;
+	background: blue;
+}
+
+.even {
+	background: rgb(196, 212, 185);
+}
+ h1 {	 
+	color: rgb(145, 187, 221);
+    font-family: Verdana, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+ }
